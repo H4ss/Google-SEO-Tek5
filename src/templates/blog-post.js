@@ -1,17 +1,21 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
-
+import "../styles/blog-post.css"
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
 
   return (
     <Layout>
-      <div>
+      <div className="post-header" style={{backgroundColor: 'teal', color: 'white', padding: '20px'}}>
         <h1>{post.frontmatter.title}</h1>
+        <p>{post.frontmatter.date}</p>
+      </div>
+      <div className="post-content-card">
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
+      <Link to="/blog" className="back-button">Back to Blog</Link>
     </Layout>
   )
 }
@@ -22,6 +26,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }
