@@ -1,0 +1,62 @@
+/* src/components/singleProduct.css */
+.single-product-container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product-image-card {
+  flex-basis: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-price {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product-description {
+  flex-basis: 60%;
+}
+
+.how-to-buy {
+  border: 2px solid teal; /* Change the border color to teal */
+  padding: 20px; /* Adjust the padding as needed */
+  margin-top: 20px; /* Adjust the margin as needed */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+.back-button {
+  margin-top: 20px; /* Adjust this value as needed */
+  background-color: teal; /* Set the background color to teal */
+  color: white; /* Set the text color to white */
+  padding: 10px 20px; /* Add some padding */
+  text-decoration: none; /* Remove the underline */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+@media (max-width: 768px) {
+  .single-product-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -8,9 +8,9 @@ import carpetRed from "../images/carpet-red.png"
 import carpetBlack from "../images/carpet-black.png"
 
 const products = [
-  { id: 1, slug: "/products/product1", image: carpetBlack, name: "Elegant Carpet", price: "199" },
-  { id: 2, slug: "/products/product2", image: carpetRed, name: "Special Carpet", price: "1999" },
-  { id: 3, slug: "/products/product3", image: carpetGreen, name: "Lucky Carpet", price: "19999" },
+  { id: 1, slug: "/products/black-carpet", image: carpetBlack, name: "Elegant Carpet", price: "199" },
+  { id: 2, slug: "/products/red-carpet", image: carpetRed, name: "Special Carpet", price: "1999" },
+  { id: 3, slug: "/products/green-carpet", image: carpetGreen, name: "Lucky Carpet", price: "19999" },
 ]
 
 const ProductsPage = () => (
