@@ -23,7 +23,7 @@ export default function Home() {
         <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '3em' }}>Welcome to Elenfaloth Carpets</h1>
         <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '1.5em' }}>Discover our premium carpets, handcrafted with love since 2003.</p>
       </div>
-      <LatestNews />
+      <LatestNews limit={3} />
       <SmallAbout />
     </Layout>
   )
