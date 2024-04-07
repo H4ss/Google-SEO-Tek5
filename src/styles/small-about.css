@@ -1,0 +1,34 @@
+/* src/components/small-about.css */
+.small-about-container {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 2rem; /* Add some space between the items */
+    margin-top: 2em; /* Add top margin */
+    margin-bottom: 2em; /* Add bottom margin */
+}
+
+.small-about-text {
+    max-width: 50%;
+}
+.small-about-image {
+    width: 200px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden; /* Hide the overflowing parts of the image */
+}
+
+.small-about-image img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+    .small-about-container {
+        flex-direction: column;
+    }
+
+    .small-about-text,
+    .small-about-image {
+        max-width: 100%;
+    }
+}

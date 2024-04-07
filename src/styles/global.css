@@ -11,6 +11,9 @@
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack the children vertically */
+    min-height: 100vh; /* Fill the viewport */
   }
   
   /* Default text color */
@@ -25,4 +28,7 @@
   a:hover {
     color: var(--dark-teal);
   }
-  
+
+.main-content {
+  flex-grow: 1; /* Grow to take up remaining space */
+}

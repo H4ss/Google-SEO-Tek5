@@ -1,13 +1,9 @@
 .footer {
-    background-color: var(--white);
-    color: var(--teal);
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.8rem;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    border-top: 2px solid var(--light-gray); /* Add a top border for separation */
-  }
-  
+  background-color: var(--white);
+  color: var(--teal);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid var(--light-gray);
+}

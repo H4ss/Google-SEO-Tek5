@@ -1,7 +1,9 @@
 // src/pages/index.js
 import React from "react"
+import LatestNews from "../components/latest-news"
 import Layout from "../components/layout"
 import imgCarpets from "../images/carpets.png"
+import SmallAbout from "../components/small-about"
 
 export default function Home() {
   return (
@@ -18,9 +20,11 @@ export default function Home() {
         minHeight: 'calc(100vh - 80px)', // Subtract the height of the navbar
         padding: '1rem' 
       }}>
-        <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Welcome to Elenfaloth Carpets</h1>
-        <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Discover our premium carpets, handcrafted with love since 2003.</p>
+        <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '3em' }}>Welcome to Elenfaloth Carpets</h1>
+        <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '1.5em' }}>Discover our premium carpets, handcrafted with love since 2003.</p>
       </div>
+      <LatestNews />
+      <SmallAbout />
     </Layout>
   )
 }
