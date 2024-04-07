@@ -1,0 +1,39 @@
+/* src/components/navbar.css */
+.navbar {
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    color: var(--teal);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-links a {
+    color: var(--teal);
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  .navbar-link-active {
+    border-bottom: 2px solid var(--teal);
+  }
+  
