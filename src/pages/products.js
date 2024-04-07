@@ -1,6 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
+import ProductGrid from "../components/product-grid"
+
+//import images
+import carpetGreen from "../images/carpet-green.png"
+import carpetRed from "../images/carpet-red.png"
+import carpetBlack from "../images/carpet-black.png"
+
+const products = [
+  { id: 1, slug: "/products/product1", image: carpetBlack, name: "Elegant Carpet", price: "199" },
+  { id: 2, slug: "/products/product2", image: carpetRed, name: "Special Carpet", price: "1999" },
+  { id: 3, slug: "/products/product3", image: carpetGreen, name: "Lucky Carpet", price: "19999" },
+]
 
 const ProductsPage = () => (
   <Layout>
@@ -27,13 +38,8 @@ const ProductsPage = () => (
       </div>
     </div>
     <div style={{ margin: '0 auto', maxWidth: 960, padding: '2rem' }}>
-      <h1>Our Products</h1>
-      <ul>
-        <li><Link to="/products/product1">Product 1</Link></li>
-        <li><Link to="/products/product2">Product 2</Link></li>
-        <li><Link to="/products/product3">Product 3</Link></li>
-        {/* Add more products as needed */}
-      </ul>
+      <h1 style={{ textAlign: 'center' }}>Our Products</h1>
+      <ProductGrid products={products} />
     </div>
   </Layout>
 )
