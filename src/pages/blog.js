@@ -1,37 +1,41 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { Link, graphql } from "gatsby"
+import Layout from "../components/layout"
 
-export default function Blog({ data }) {
-  return (
-    <div>
-      <h1>Blog</h1>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
-          <Link to={node.fields.slug}>
-            <h3>{node.frontmatter.title}</h3>
-          </Link>
-          <p>{node.frontmatter.date}</p>
-        </div>
-      ))}
+const BlogPage = ({ data }) => (
+  <Layout>
+    <div style={{ margin: '0 auto', maxWidth: 960, padding: '2rem' }}>
+      <h1>Latest Posts</h1>
+      <ul>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <li key={node.id}>
+            <Link to={node.fields.slug} style={{ textDecoration: 'none', color: 'var(--teal)' }}>
+              {node.frontmatter.title} - {node.frontmatter.date}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
-}
+  </Layout>
+)
 
 export const query = graphql`
   query {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-          }
+          id
           fields {
             slug
           }
-          id
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+          }
         }
       }
     }
   }
 `
+
+export default BlogPage
