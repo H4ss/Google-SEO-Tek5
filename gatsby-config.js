@@ -1,22 +1,19 @@
 module.exports = {
-    siteMetadata: {
-      title: `Elenfaloth Carpet Company`,
-      description: `Elenfaloth Carpet Company is a family owned and operated business that has been serving the greater Los Angeles area for over 30 years. We specialize in carpet cleaning, repair, and installation.
-      We also offer a wide variety of flooring options including hardwood, laminate, and tile. 
-      Our team of experts is dedicated to providing the highest quality service at an affordable price. 
+  siteMetadata: {
+    title: `Elenfaloth Fantasys`,
+    description: `Dans les vastes étendues du désert, où le sable danse sous le soleil brûlant et où les étoiles illuminent la nuit avec une clarté inégalée, une famille de bédouins, les Al-Nadir, a su transformer une plante mystérieuse, l'Elenfaloth, en une industrie prospère. L'histoire de cette famille est celle de traditions ancestrales, de secrets bien gardés et d'une résilience remarquable face aux défis du temps. 
       Contact us today for a free estimate!`,
-      author: `@gatsbyjs`,
+    author: `@gatsbyjs`,
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/src/blog`,
+      },
     },
-    plugins: [
-        {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-            name: `blog`,
-            path: `${__dirname}/src/blog`,
-          },
-        },
-        `gatsby-transformer-remark`,
-      ],
-    
-  };
-  
+    `gatsby-transformer-remark`,
+  ],
+
+};

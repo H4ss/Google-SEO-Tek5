@@ -25,8 +25,8 @@ const LatestNews = () => {
 
     return (
         <div className="latest-news" style={{ textAlign: 'center' }}>
-            <h2 style={{ color: 'teal', textAlign: 'center', fontSize: '2em', marginBottom: '0.5em' }}>Latest News</h2> {/* Reduce the bottom margin */}
-            <p style={{ color: 'teal', textAlign: 'center' }}>Stay up-to-date with our latest news and updates.</p> {/* Add a paragraph */}               <div className="news-grid">
+            <h2 style={{ color: 'teal', textAlign: 'center', fontSize: '2em', marginBottom: '0.5em' }}>Articles récents</h2> {/* Reduce the bottom margin */}
+            <p style={{ color: 'teal', textAlign: 'center' }}>Ne manquer pas les dernières nouvelles sur notre blog !</p> {/* Add a paragraph */}               <div className="news-grid">
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     <article key={node.id} className="news-card">
                         <Link to={node.fields.slug} className="news-link">
@@ -37,7 +37,7 @@ const LatestNews = () => {
                     </article>
                 ))}
             </div>
-            <Link to="/blog" className="more-posts">More Posts</Link> {/* Add a "More Posts" button */}
+            <Link to="/blog" className="more-posts">Voir plus</Link> {/* Add a "More Posts" button */}
         </div>
     )
 }
