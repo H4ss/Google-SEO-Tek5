@@ -11,7 +11,7 @@ const SingleProduct = ({ imageUrl, name, price, description }) => (
         <div className="product-details">
             <div className="product-description">
                 <h1>{name}</h1>
-                <p>{description}</p>
+                <p dangerouslySetInnerHTML={{ __html: description }}></p>
             </div>
             <div className="how-to-buy">
                 <h2>How to Buy</h2>

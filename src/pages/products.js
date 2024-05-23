@@ -3,14 +3,22 @@ import Layout from "../components/layout"
 import ProductGrid from "../components/product-grid"
 
 //import images
-import carpetGreen from "../images/carpet-green.png"
-import carpetRed from "../images/carpet-red.png"
-import carpetBlack from "../images/carpet-black.png"
+import dreamOfDesertImg from "../images/new/dream-of-desert.png"
+import oasisIncenseImg from "../images/new/oasis-sent.png"
+import dunesTeaImg from "../images/new/dunes-tea.png"
+import mirageImg from "../images/new/mirage-balm.png"
+import sandElixirImg from "../images/new/sand-elixir.png"
+import starCandyImg from "../images/new/space-candy.png"
+import chocoMirageImg from "../images/new/mirage-choco.png"
 
 const products = [
-  { id: 1, slug: "/products/black-carpet", image: carpetBlack, name: "Elegant Carpet", price: "199" },
-  { id: 2, slug: "/products/red-carpet", image: carpetRed, name: "Special Carpet", price: "1999" },
-  { id: 3, slug: "/products/green-carpet", image: carpetGreen, name: "Lucky Carpet", price: "19999" },
+  { id: 1, slug: "/products/dream-desert", image: dreamOfDesertImg, name: "Rêve du Désert", price: "99" },
+  { id: 2, slug: "/products/oasis-incense", image: oasisIncenseImg, name: "Encens de l'oasis", price: "15" },
+  { id: 3, slug: "/products/dunes-tea", image: dunesTeaImg, name: "Thé des Dunes", price: "20" },
+  { id: 4, slug: "/products/mirage", image: mirageImg, name: "Beaume des Mirages", price: "25" },
+  { id: 5, slug: "/products/sand-elixir", image: sandElixirImg, name: "Élixir des Sables", price: "45" },
+  { id: 6, slug: "/products/star-candy", image: starCandyImg, name: "Bonbons des Étoiles", price: "15" },
+  { id: 7, slug: "/products/choco-mirage", image: chocoMirageImg, name: "Chocolat des Mirages", price: "12" },
 ]
 
 const ProductsPage = () => (
