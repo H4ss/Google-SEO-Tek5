@@ -11,6 +11,7 @@ export default function BlogPost({ data }) {
       <div className="post-header" style={{backgroundColor: 'teal', color: 'white', padding: '20px'}}>
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
+        <p>Keywords: {post.frontmatter.keywords.join(', ')}</p>
       </div>
       <div className="post-content-card">
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -27,6 +28,7 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        keywords
       }
     }
   }
