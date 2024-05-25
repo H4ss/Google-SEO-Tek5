@@ -10,25 +10,25 @@ Elenfaloth, a magical plant from the desert, offers a variety of products to cat
 
 ## Product Overview
 
-### Mirage Chocolate - $12
+### [Mirage Chocolate](https://elenfaloth.netlify.app/products/choco-mirage/) - $12
 A delightful treat infused with the essence of Elenfaloth. Perfect for those who enjoy combining pleasure with the plant’s subtle benefits.
 
-### Star Candy - $15
+### [Star Candy](https://elenfaloth.netlify.app/products/star-candy/) - $15
 A sweet confectionary experience, ideal for a quick and enjoyable way to experience the magic of Elenfaloth.
 
-### Sand Elixir - $45
+### [Sand Elixir](https://elenfaloth.netlify.app/products/sand-elixir/) - $45
 A powerful and concentrated Elenfaloth extract. Great for those looking for potent therapeutic benefits.
 
-### Mirages Cream - $25
+### [Mirages Cream](https://elenfaloth.netlify.app/products/mirage/) - $25
 A luxurious cream that harnesses the moisturizing and healing properties of Elenfaloth. Perfect for skincare enthusiasts.
 
-### Dune Tea - $20
+### [Dunes Tea](https://elenfaloth.netlify.app/products/dunes-tea/) - $20
 A soothing and aromatic tea blend infused with Elenfaloth. Ideal for relaxation and unwinding.
 
-### Oasis Incense - $15
+### [Oasis Incense](https://elenfaloth.netlify.app/products/oasis-incense/) - $15
 Aromatic incense sticks made with Elenfaloth. Perfect for enhancing meditation or creating a calming atmosphere.
 
-### Desert Dream - $99
+### [Desert Dream](https://elenfaloth.netlify.app/products/dream-desert/) - $99
 An exclusive and premium Elenfaloth product with powerful hallucinogenic properties. Best for those seeking a profound and unique experience.
 
 ## Choosing the Right Elenfaloth Product
@@ -51,37 +51,37 @@ Before choosing an Elenfaloth product, it's essential to understand what you are
 
 ### Detailed Product Benefits
 
-#### Mirage Chocolate
+#### [Mirage Chocolate](https://elenfaloth.netlify.app/products/choco-mirage/)
 - **Benefits**: Combines pleasure with subtle Elenfaloth benefits.
 - **Use**: Enjoy as a treat any time of the day.
 - **Ideal For**: Chocolate lovers who want to incorporate Elenfaloth into their diet.
 
-#### Star Candy
+#### [Star Candy](https://elenfaloth.netlify.app/products/star-candy/)
 - **Benefits**: Convenient and enjoyable way to experience Elenfaloth.
 - **Use**: Perfect for on-the-go consumption.
 - **Ideal For**: Those who prefer a sweet, portable option.
 
-#### Sand Elixir
+#### [Sand Elixir](https://elenfaloth.netlify.app/products/sand-elixir/)
 - **Benefits**: High potency for significant therapeutic effects.
 - **Use**: Can be added to drinks or taken directly.
 - **Ideal For**: Individuals seeking potent therapeutic benefits.
 
-#### Mirages Cream
+#### [Mirages Cream](https://elenfaloth.netlify.app/products/mirage/)
 - **Benefits**: Moisturizes and heals the skin.
 - **Use**: Apply to skin as needed for hydration and rejuvenation.
 - **Ideal For**: Skincare enthusiasts.
 
-#### Dune Tea
+#### [Dunes Tea](https://elenfaloth.netlify.app/products/dunes-tea/)
 - **Benefits**: Soothing and aromatic, perfect for relaxation.
 - **Use**: Brew and enjoy in the evening or during a relaxing moment.
 - **Ideal For**: Tea lovers looking to unwind.
 
-#### Oasis Incense
+#### [Oasis Incense](https://elenfaloth.netlify.app/products/oasis-incense/)
 - **Benefits**: Enhances meditation and creates a calming atmosphere.
 - **Use**: Light and allow the aroma to fill the room.
 - **Ideal For**: Meditation practitioners and those wanting a serene environment.
 
-#### Desert Dream
+#### [Desert Dream](https://elenfaloth.netlify.app/products/dream-desert/)
 - **Benefits**: Provides a profound and unique hallucinogenic experience.
 - **Use**: Best used in a safe and comfortable setting.
 - **Ideal For**: Experienced users seeking a deep, transformative experience.
