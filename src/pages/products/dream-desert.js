@@ -8,18 +8,18 @@ export default function DreamOfDesert() {
     return (
         <Layout>
             <SingleProduct
-                imageUrl={tmpImg} // Assurez-vous de remplacer 'tmpImg' par le chemin de l'image appropriée
-                name="Rêve du Désert"
+                imageUrl={tmpImg} // Make sure to replace 'tmpImg' with the appropriate image path
+                name="Dream of Desert"
                 price="99"
-                description={`Plongez dans un voyage mystique avec <strong>"Rêve du Désert"</strong>, une potion hallucinogène unique créée à partir des extraits les plus purs de l'Elenfaloth. Conçue pour offrir une expérience transcendantale, cette potion vous emmènera dans des paysages oniriques et éveillera votre esprit à des dimensions nouvelles.<br><br>
-         <strong>Caractéristiques:</strong><br>
+                description={`Immerse yourself in a mystical journey with <strong>"Dream of Desert"</strong>, a unique hallucinogenic potion created from the purest extracts of Elenfaloth. Designed to offer a transcendental experience, this potion will take you into dreamlike landscapes and awaken your mind to new dimensions.<br><br>
+         <strong>Features:</strong><br>
          <ul>
-            <li><strong><u>Ingrédients:</u></strong> Extrait concentré d'Elenfaloth, eau de source du désert, herbes aromatiques secrètes.</li>
-            <li><strong><u>Effets:</u></strong> Hallucinations visuelles et auditives, éveil spirituel, relaxation profonde.</li>
-            <li><strong><u>Utilisation:</u></strong> Une cuillère à café diluée dans un verre d'eau ou de jus. Ne pas dépasser la dose recommandée.</li>
-            <li><strong><u>Précautions:</u></strong> À utiliser dans un environnement sûr et calme. Ne pas utiliser si vous êtes enceinte, allaitante ou souffrez de troubles mentaux.</li>         
+            <li><strong><u>Ingredients:</u></strong> Concentrated extract of Elenfaloth, desert spring water, secret aromatic herbs.</li>
+            <li><strong><u>Effects:</u></strong> Visual and auditory hallucinations, spiritual awakening, deep relaxation.</li>
+            <li><strong><u>Usage:</u></strong> One teaspoon diluted in a glass of water or juice. Do not exceed the recommended dose.</li>
+            <li><strong><u>Precautions:</u></strong> Use in a safe and calm environment. Do not use if you are pregnant, nursing, or suffering from mental disorders.</li>         
         </ul>`
-    }
+                }
             />
         </Layout>
     )

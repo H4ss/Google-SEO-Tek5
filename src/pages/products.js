@@ -12,13 +12,13 @@ import starCandyImg from "../images/new/space-candy.png"
 import chocoMirageImg from "../images/new/mirage-choco.png"
 
 const products = [
-  { id: 1, slug: "/products/dream-desert", image: dreamOfDesertImg, name: "Rêve du Désert", price: "99" },
-  { id: 2, slug: "/products/oasis-incense", image: oasisIncenseImg, name: "Encens de l'oasis", price: "15" },
-  { id: 3, slug: "/products/dunes-tea", image: dunesTeaImg, name: "Thé des Dunes", price: "20" },
-  { id: 4, slug: "/products/mirage", image: mirageImg, name: "Beaume des Mirages", price: "25" },
-  { id: 5, slug: "/products/sand-elixir", image: sandElixirImg, name: "Élixir des Sables", price: "45" },
-  { id: 6, slug: "/products/star-candy", image: starCandyImg, name: "Bonbons des Étoiles", price: "15" },
-  { id: 7, slug: "/products/choco-mirage", image: chocoMirageImg, name: "Chocolat des Mirages", price: "12" },
+  { id: 1, slug: "/products/dream-desert", image: dreamOfDesertImg, name: "Dream of Desert", price: "99" },
+  { id: 2, slug: "/products/oasis-incense", image: oasisIncenseImg, name: "Oasis Incense", price: "15" },
+  { id: 3, slug: "/products/dunes-tea", image: dunesTeaImg, name: "Dunes Tea", price: "20" },
+  { id: 4, slug: "/products/mirage", image: mirageImg, name: "Mirage Cream", price: "25" },
+  { id: 5, slug: "/products/sand-elixir", image: sandElixirImg, name: "Sand Elixir", price: "45" },
+  { id: 6, slug: "/products/star-candy", image: starCandyImg, name: "Star Candy", price: "15" },
+  { id: 7, slug: "/products/choco-mirage", image: chocoMirageImg, name: "Mirage Chocolate", price: "12" },
 ]
 
 const ProductsPage = () => (

@@ -1,5 +1,5 @@
 ---
-title: "Elenfaloth in bedouin cuisine: tradition and tnnovation"
+title: "Elenfaloth in bedouin cuisine: tradition and innovation"
 date: "2024-04-17"
 keywords: ["Elenfaloth", "cuisine", "cooking", "recipes", "traditional dishes"]
 ---

@@ -5,22 +5,21 @@ import SingleProduct from "../../components/single-product"
 import tmpImg from "../../images/new/mirage-balm.png"
 
 export default function MirageBalm() {
-    return (
-      <Layout>
-       <SingleProduct
-         imageUrl={tmpImg} // Assurez-vous de remplacer 'tmpImg' par le chemin de l'image appropriée
-         name="Baume des Mirages"
-         price="25€"
-         description={`Le <strong>"Baume des Mirages"</strong> est un onguent apaisant à base d'extraits d'Elenfaloth, conçu pour soulager les douleurs musculaires et articulaires. Idéal pour les massages, il offre une sensation de chaleur et de relaxation.<br><br>
-         <strong>Caractéristiques:</strong><br>
+  return (
+    <Layout>
+      <SingleProduct
+        imageUrl={tmpImg} // Make sure to replace 'tmpImg' with the appropriate image path
+        name="Mirage Cream"
+        price="25"
+        description={`The <strong>"Mirage Cream"</strong> is a soothing ointment made with Elenfaloth extracts, designed to relieve muscle and joint pain. Ideal for massages, it provides a sensation of warmth and relaxation.<br><br>
+         <strong>Features:</strong><br>
          <ul>
-           <li><strong><u>Ingrédients:</u></strong> Extraits d'Elenfaloth, huile d'argan, cire d'abeille, huile essentielle de lavande.</li>
-           <li><strong><u>Effets:</u></strong> Soulagement des douleurs, détente musculaire, amélioration de la circulation.</li>
-           <li><strong><u>Utilisation:</u></strong> Appliquer une petite quantité sur la zone affectée et masser doucement jusqu'à absorption complète.</li>
-           <li><strong><u>Précautions:</u></strong> Usage externe uniquement. Éviter le contact avec les yeux et les muqueuses.</li>
+           <li><strong><u>Ingredients:</u></strong> Elenfaloth extracts, argan oil, beeswax, lavender essential oil.</li>
+           <li><strong><u>Effects:</u></strong> Pain relief, muscle relaxation, improved circulation.</li>
+           <li><strong><u>Usage:</u></strong> Apply a small amount to the affected area and gently massage until fully absorbed.</li>
+           <li><strong><u>Precautions:</u></strong> For external use only. Avoid contact with eyes and mucous membranes.</li>
          </ul>`}
-        />
-      </Layout>
-    )
-  }
-  
+      />
+    </Layout>
+  )
+}

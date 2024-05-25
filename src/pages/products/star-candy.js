@@ -5,22 +5,21 @@ import SingleProduct from "../../components/single-product"
 import tmpImg from "../../images/new/space-candy.png"
 
 export default function StarCandies() {
-    return (
-      <Layout>
-       <SingleProduct
-         imageUrl={tmpImg} // Assurez-vous de remplacer 'tmpImg' par le chemin de l'image appropriée
-         name="Bonbons des Étoiles"
-         price="15€ (Boîte de 20 bonbons)"
-         description={`Laissez-vous emporter par une douce évasion avec les <strong>"Bonbons des Étoiles"</strong>, des confiseries infusées à l'extrait d'Elenfaloth. Chaque bonbon est une petite dose de rêve, conçu pour offrir une légère euphorie et un moment de détente en toute discrétion.<br><br>
-         <strong>Caractéristiques:</strong><br>
+  return (
+    <Layout>
+      <SingleProduct
+        imageUrl={tmpImg} // Make sure to replace 'tmpImg' with the appropriate image path
+        name="Star Candy"
+        price="15 (Box of 20 candies)"
+        description={`Let yourself be carried away by a sweet escape with <strong>"Star Candy"</strong>, confections infused with Elenfaloth extract. Each candy is a small dose of dream, designed to offer a slight euphoria and a moment of relaxation in complete discretion.<br><br>
+         <strong>Features:</strong><br>
          <ul>
-           <li><strong><u>Ingrédients:</u></strong> Sucre de canne biologique, sirop de glucose, extrait d'Elenfaloth, arômes naturels de fruits.</li>
-           <li><strong><u>Effets:</u></strong> Légère euphorie, relaxation, amélioration de l'humeur.</li>
-           <li><strong><u>Utilisation:</u></strong> Un bonbon par jour pour profiter d'une douce sensation de bien-être.</li>
-           <li><strong><u>Précautions:</u></strong> Ne pas dépasser un bonbon par jour. Non recommandé pour les enfants et les femmes enceintes.</li>
+           <li><strong><u>Ingredients:</u></strong> Organic cane sugar, glucose syrup, Elenfaloth extract, natural fruit flavors.</li>
+           <li><strong><u>Effects:</u></strong> Slight euphoria, relaxation, mood enhancement.</li>
+           <li><strong><u>Usage:</u></strong> One candy per day to enjoy a gentle sensation of well-being.</li>
+           <li><strong><u>Precautions:</u></strong> Do not exceed one candy per day. Not recommended for children and pregnant women.</li>
          </ul>`}
-        />
-      </Layout>
-    )
-  }
-  
+      />
+    </Layout>
+  )
+}

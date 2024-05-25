@@ -5,22 +5,21 @@ import SingleProduct from "../../components/single-product"
 import tmpImg from "../../images/new/mirage-choco.png"
 
 export default function MirageChocolate() {
-    return (
-      <Layout>
-       <SingleProduct
-         imageUrl={tmpImg} // Assurez-vous de remplacer 'tmpImg' par le chemin de l'image appropriée
-         name="Chocolat des Mirages"
-         price="12€ (Tablette de 100g)"
-         description={`Découvrez l'expérience unique du <strong>"Chocolat des Mirages"</strong>, une tablette de chocolat noir infusée à l'Elenfaloth. Ce chocolat exquis combine les bienfaits de l'Elenfaloth avec le plaisir riche et intense du cacao, offrant une dégustation raffinée et apaisante.<br><br>
-         <strong>Caractéristiques:</strong><br>
+  return (
+    <Layout>
+      <SingleProduct
+        imageUrl={tmpImg} // Make sure to replace 'tmpImg' with the appropriate image path
+        name="Mirage Chocolate"
+        price="12"
+        description={`Discover the unique experience of <strong>"Mirage Chocolate"</strong>, a dark chocolate bar infused with Elenfaloth. This exquisite chocolate combines the benefits of Elenfaloth with the rich and intense pleasure of cocoa, offering a refined and soothing tasting experience.<br><br>
+         <strong>Features:</strong><br>
          <ul>
-           <li><strong><u>Ingrédients:</u></strong> Chocolat noir 70% cacao, extrait d'Elenfaloth, éclats de fèves de cacao, sucre de canne.</li>
-           <li><strong><u>Effets:</u></strong> Relaxation, légère sensation de bien-être, stimulation des sens.</li>
-           <li><strong><u>Utilisation:</u></strong> Dégustez un ou deux carrés pour un moment de détente et de plaisir.</li>
-           <li><strong><u>Précautions:</u></strong> Ne pas consommer plus de trois carrés par jour. Non recommandé pour les enfants et les femmes enceintes.</li>
+           <li><strong><u>Ingredients:</u></strong> 70% dark chocolate, Elenfaloth extract, cocoa nibs, cane sugar.</li>
+           <li><strong><u>Effects:</u></strong> Relaxation, slight sense of well-being, sensory stimulation.</li>
+           <li><strong><u>Usage:</u></strong> Enjoy one or two squares for a moment of relaxation and pleasure.</li>
+           <li><strong><u>Precautions:</u></strong> Do not consume more than three squares per day. Not recommended for children and pregnant women.</li>
          </ul>`}
-        />
-      </Layout>
-    )
-  }
-  
+      />
+    </Layout>
+  )
+}

@@ -5,22 +5,21 @@ import SingleProduct from "../../components/single-product"
 import tmpImg from "../../images/new/sand-elixir.png"
 
 export default function SandsElixir() {
-    return (
-      <Layout>
-       <SingleProduct
-         imageUrl={tmpImg} // Assurez-vous de remplacer 'tmpImg' par le chemin de l'image appropriée
-         name="Élixir des Sables"
-         price="45€"
-         description={`L'<strong>"Élixir des Sables"</strong> est un tonique puissant et énergisant à base d'Elenfaloth. Idéal pour combattre la fatigue et stimuler l'esprit, cet élixir est votre allié pour les journées chargées et les périodes de stress intense.<br><br>
-         <strong>Caractéristiques:</strong><br>
+  return (
+    <Layout>
+      <SingleProduct
+        imageUrl={tmpImg} // Make sure to replace 'tmpImg' with the appropriate image path
+        name="Sand Elixir"
+        price="45"
+        description={`The <strong>"Sand Elixir"</strong> is a powerful and energizing tonic made from Elenfaloth. Ideal for combating fatigue and stimulating the mind, this elixir is your ally for busy days and periods of intense stress.<br><br>
+         <strong>Features:</strong><br>
          <ul>
-           <li><strong><u>Ingrédients:</u></strong> Jus d'Elenfaloth, miel pur, gingembre, ginseng.</li>
-           <li><strong><u>Effets:</u></strong> Stimulation de l'énergie, clarté mentale, réduction du stress.</li>
-           <li><strong><u>Utilisation:</u></strong> Une cuillère à soupe le matin ou avant une activité nécessitant de la concentration.</li>
-           <li><strong><u>Précautions:</u></strong> Ne pas dépasser la dose quotidienne recommandée. Non recommandé pour les enfants et les femmes enceintes.</li>
+           <li><strong><u>Ingredients:</u></strong> Elenfaloth juice, pure honey, ginger, ginseng.</li>
+           <li><strong><u>Effects:</u></strong> Energy stimulation, mental clarity, stress reduction.</li>
+           <li><strong><u>Usage:</u></strong> One tablespoon in the morning or before an activity requiring concentration.</li>
+           <li><strong><u>Precautions:</u></strong> Do not exceed the recommended daily dose. Not recommended for children and pregnant women.</li>
          </ul>`}
-        />
-      </Layout>
-    )
-  }
-  
+      />
+    </Layout>
+  )
+}

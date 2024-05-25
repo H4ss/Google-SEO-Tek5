@@ -5,22 +5,21 @@ import SingleProduct from "../../components/single-product"
 import tmpImg from "../../images/new/dunes-tea.png"
 
 export default function DunesTea() {
-    return (
-      <Layout>
-       <SingleProduct
-         imageUrl={tmpImg} // Assurez-vous de remplacer 'tmpImg' par le chemin de l'image appropriée
-         name="Thé des Dunes"
-         price="20€"
-         description={`Découvrez le <strong>"Thé des Dunes"</strong>, une infusion délicate et aromatique qui utilise les feuilles séchées de l'Elenfaloth. Parfait pour une pause relaxante, ce thé offre une légère sensation de bien-être et de tranquillité.<br><br>
-         <strong>Caractéristiques:</strong><br>
+  return (
+    <Layout>
+      <SingleProduct
+        imageUrl={tmpImg} // Make sure to replace 'tmpImg' with the correct image path
+        name="Dunes Tea"
+        price="20"
+        description={`Discover <strong>"Dunes Tea"</strong>, a delicate and aromatic infusion using the dried leaves of Elenfaloth. Perfect for a relaxing break, this tea offers a light feeling of well-being and tranquility.<br><br>
+         <strong>Characteristics:</strong><br>
          <ul>
-           <li><strong><u>Ingrédients:</u></strong> Feuilles séchées d'Elenfaloth, menthe poivrée, pétales de rose.</li>
-           <li><strong><u>Effets:</u></strong> Légère euphorie, détente, apaisement des tensions.</li>
-           <li><strong><u>Utilisation:</u></strong> Infuser une cuillère à soupe de thé dans de l'eau chaude pendant 5 à 7 minutes.</li>
-           <li><strong><u>Précautions:</u></strong> Ne pas consommer plus de deux tasses par jour. Non recommandé pour les enfants.</li>
+           <li><strong><u>Ingredients:</u></strong> Dried Elenfaloth leaves, peppermint, rose petals.</li>
+           <li><strong><u>Effects:</u></strong> Light euphoria, relaxation, tension relief.</li>
+           <li><strong><u>Usage:</u></strong> Infuse a tablespoon of tea in hot water for 5 to 7 minutes.</li>
+           <li><strong><u>Precautions:</u></strong> Do not consume more than two cups per day. Not recommended for children.</li>
          </ul>`}
-        />
-      </Layout>
-    )
-  }
-  
+      />
+    </Layout>
+  )
+}
