@@ -3,7 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import "../styles/latest-news.css"
 
 const LatestNews = () => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query LatestNewsQuery {
       allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 3) {
         edges {
@@ -23,23 +23,24 @@ const LatestNews = () => {
     }
   `);
 
-    return (
-        <div className="latest-news" style={{ textAlign: 'center' }}>
-            <h2 style={{ color: 'teal', textAlign: 'center', fontSize: '2em', marginBottom: '0.5em' }}>Articles récents</h2> {/* Reduce the bottom margin */}
-            <p style={{ color: 'teal', textAlign: 'center' }}>Ne manquer pas les dernières nouvelles sur notre blog !</p> {/* Add a paragraph */}               <div className="news-grid">
-                {data.allMarkdownRemark.edges.map(({ node }) => (
-                    <article key={node.id} className="news-card">
-                        <Link to={node.fields.slug} className="news-link">
-                            <h3>{node.frontmatter.title}</h3>
-                            <p>{node.excerpt}</p>
-                            <small>{`${node.frontmatter.date} • ${node.frontmatter.author}`}</small>
-                        </Link>
-                    </article>
-                ))}
-            </div>
-            <Link to="/blog" className="more-posts">Voir plus</Link> {/* Add a "More Posts" button */}
-        </div>
-    )
+  return (
+    <div className="latest-news" style={{ textAlign: 'center' }}>
+      <h2 style={{ color: 'teal', textAlign: 'center', fontSize: '2em', marginBottom: '0.5em' }}>Recent articles</h2> {/* Reduce the bottom margin */}
+      <p style={{ color: 'teal', textAlign: 'center' }}>Don't miss the latest news on our blog!</p> {/* Add a paragraph */}
+      <div className="news-grid">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <article key={node.id} className="news-card">
+            <Link to={node.fields.slug} className="news-link">
+              <h3>{node.frontmatter.title}</h3>
+              <p>{node.excerpt}</p>
+              <small>{`${node.frontmatter.date} • ${node.frontmatter.author}`}</small>
+            </Link>
+          </article>
+        ))}
+      </div>
+      <Link to="/blog" className="more-posts">Voir plus</Link> {/* Add a "More Posts" button */}
+    </div>
+  )
 }
 
 export default LatestNews

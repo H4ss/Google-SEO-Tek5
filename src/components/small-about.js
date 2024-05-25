@@ -8,11 +8,13 @@ const SmallAbout = () => (
       <img src={gridCarpets} alt="Carpets" />
     </div>
     <div className="small-about-text">
-    <h2>Notre Histoire</h2>
-    <h3>Laisser vous porter vers l'Orient...</h3>
-    <p>Dans les vastes étendues du désert, où le sable danse sous le soleil brûlant et où les étoiles illuminent la nuit avec une clarté inégalée, 
-      une famille de bédouins, les Al-Nadir, a su transformer une plante mystérieuse, l'Elenfaloth, en une industrie prospère. 
-      L'histoire de cette famille est celle de traditions ancestrales, de secrets bien gardés et d'une résilience remarquable face aux défis du temps.</p>
+      <h2>Our history</h2>
+      <h3>Let yourself be carried to the Orient...</h3>
+      <p>
+        In the vast expanses of the desert, where the sand dances under the scorching sun and the stars illuminate the night with unrivalled clarity,
+        a Bedouin family, the Al-Nadirs, have transformed a mysterious plant, the Elenfaloth, into a thriving industry.
+        The story of this family is one of ancestral traditions, well-kept secrets and remarkable resilience in the face of the challenges of time.
+      </p>
     </div>
   </div>
 )

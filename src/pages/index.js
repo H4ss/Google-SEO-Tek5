@@ -8,7 +8,7 @@ import SmallAbout from "../components/small-about"
 export default function Home() {
   return (
     <Layout>
-      <div style={{ 
+      <div style={{
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -16,12 +16,12 @@ export default function Home() {
         backgroundImage: `url(${imgCarpets})`, // Set the image as background
         backgroundSize: 'cover', // Cover the entire div
         backgroundPosition: 'center', // Center the background image
-        color: 'var(--white)', 
+        color: 'var(--white)',
         minHeight: 'calc(100vh - 80px)', // Subtract the height of the navbar
-        padding: '1rem' 
+        padding: '1rem'
       }}>
         <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '3em' }}>Welcome to Elenfaloth Fantasy</h1>
-        <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '1.5em' }}>Découvrez l'histoire de la famille Al-Nadir et de l'elenfaloth.</p>
+        <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '1.5em' }}>Discover the history of the Al-Nadir family and the Elenfaloth.</p>
       </div>
       <LatestNews />
       <SmallAbout />

@@ -35,13 +35,13 @@ const ProductsPage = () => (
       minHeight: 'calc(70vh - 80px)', // Subtract the height of the navbar
       padding: '1rem'
     }}>
-      <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '3em' }}>Découvrez nos produits</h1>
+      <h1 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '3em' }}>Discover our products</h1>
       <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', fontSize: '1.5em' }}>
-        Découvrez ce que vous aimez dans les mystères de l'Elenfaloth !
+        Discover what you love about the mysteries of Elenfaloth!
       </p>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <p style={{ fontSize: '1.2em', maxWidth: '60%', textAlign: 'center' }}>
-          Explorez notre gamme diversifiée de produits dérivés de l'Elenfaloth, chacun offrant une alchimie unique de tradition et d'innovation. Des potions hallucinogènes aux extraits concentrés pour la méditation, il y a un produit Elenfaloth parfait pour chaque personne et chaque besoin.
+          Explore our diverse range of Elenfaloth-derived products, each offering a unique alchemy of tradition and innovation. From hallucinogenic potions to concentrated meditation extracts, there's an Elenfaloth product perfect for every person and every need.
         </p>
       </div>
     </div>
